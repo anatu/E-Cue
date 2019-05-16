@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_YYY.unity
     guid: 8f51115e98ab24772830d8a89cef42e9
+  - enabled: 1
+    path: Assets/Scenes/SceneMoral.unity
+    guid: bd86dfef656004486903e33c517c0d0f
   m_configObjects: {}
