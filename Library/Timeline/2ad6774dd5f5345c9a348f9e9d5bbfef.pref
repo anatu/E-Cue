@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1890111309, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeInFrames: 1
+  timeAreaShownRange: {x: 6.132961, y: 17.320992}
+  showAudioWaveform: 1
+  trackHeight: 30
+  trackScale: 1
+  playRangeEnabled: 0
+  timeAreaPlayRange: {x: 3.4028235e+38, y: 3.4028235e+38}
+  windowTime: 11.096887946128845
+  verticalScroll: 0
+  m_Keys:
+  - {fileID: 114531951155768116, guid: 2ad6774dd5f5345c9a348f9e9d5bbfef, type: 2}
+  - {fileID: 114259272619241470, guid: 2ad6774dd5f5345c9a348f9e9d5bbfef, type: 2}
+  - {fileID: 114927891355355554, guid: 2ad6774dd5f5345c9a348f9e9d5bbfef, type: 2}
+  - {fileID: 114438938076572058, guid: 2ad6774dd5f5345c9a348f9e9d5bbfef, type: 2}
+  - {fileID: 114699008548555374, guid: 2ad6774dd5f5345c9a348f9e9d5bbfef, type: 2}
+  m_Vals:
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
