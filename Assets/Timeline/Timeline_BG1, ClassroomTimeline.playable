@@ -285,6 +285,21 @@ MonoBehaviour:
   m_ApplyFootIK: 1
   m_Version: 1
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &114074836343796656
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1977359656, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 8300000, guid: e9e176ff467d9e647af4adfdc240e112, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
 --- !u!114 &114076409668844780
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1541,11 +1556,11 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 13.533333333333331
+    m_PostExtrapolationTime: 13.733854875283114
     m_PreExtrapolationTime: 0
     m_DisplayName: Pistol Idle
     m_Version: 1
-  - m_Start: 83.58333333333333
+  - m_Start: 83.78385487528311
     m_ClipIn: 0
     m_Asset: {fileID: 114491506233298654}
     m_Duration: 3.069682539682539
@@ -1596,7 +1611,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TK_talk1
     m_Version: 1
-  - m_Start: 86.653015873016
+  - m_Start: 86.85353741496579
     m_ClipIn: 0
     m_Asset: {fileID: 114384976366419682}
     m_Duration: 3.069682539682539
@@ -1647,10 +1662,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: TK_talk1
     m_Version: 1
-  - m_Start: 89.722698412699
+  - m_Start: 89.92321995464879
     m_ClipIn: 0
     m_Asset: {fileID: 114980110470036604}
-    m_Duration: 3.069682539682539
+    m_Duration: 1.2262585034011124
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114140204688571622}
     m_EaseInDuration: 0
@@ -5495,7 +5510,7 @@ MonoBehaviour:
   - m_Start: 88.383333333333
     m_ClipIn: 0
     m_Asset: {fileID: 114401895650227100}
-    m_Duration: 2.4000000000000057
+    m_Duration: 2.7661451247168998
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114510813611795900}
     m_EaseInDuration: 0
@@ -5797,21 +5812,6 @@ MonoBehaviour:
   - {fileID: 114721601469702802}
   m_Clips: []
   m_Version: 2
---- !u!114 &114559522372790022
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1977359656, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 8300000, guid: 8b6f8b3feef095847bb1498e9a486521, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
 --- !u!114 &114569568433764822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9297,10 +9297,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Background_Scene2_Sarah_Track2
     m_Version: 1
-  - m_Start: 83.58333333333333
+  - m_Start: 84.15
     m_ClipIn: 0
-    m_Asset: {fileID: 114559522372790022}
-    m_Duration: 7.706122448979592
+    m_Asset: {fileID: 114074836343796656}
+    m_Duration: 6.999478458049887
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114707107596318772}
     m_EaseInDuration: 0
@@ -9364,7 +9364,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Sarah_LastLineSub
+    m_DisplayName: Sarah_BG_Missing
     m_Version: 1
   m_Version: 2
 --- !u!114 &114709050364705380
