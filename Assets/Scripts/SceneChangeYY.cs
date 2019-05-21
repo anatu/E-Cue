@@ -7,9 +7,9 @@ public class SceneChangeYY : MonoBehaviour
 {
     void Update()
     {
-        if(Input.GetKeyDown("y")) {
+        if((Input.GetKeyDown("y")) || (Input.GetKey(KeyCode.Mouse0))) {
             SceneManager.LoadScene("Scene_YYY", LoadSceneMode.Single);
-        } else if(Input.GetKeyDown("n")) {
+        } else if((Input.GetKeyDown("n")) || (Input.GetKey(KeyCode.Mouse1))) {
             SceneManager.LoadScene("Scene_YYN", LoadSceneMode.Single);
         }
     }

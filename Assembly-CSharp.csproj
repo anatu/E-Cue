@@ -115,6 +115,7 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\Scripts\ChangeSceneTest.cs" />
     <Compile Include="Assets\Scripts\KeyPressYes.cs" />
+    <Compile Include="Assets\Scripts\SceneChange_BG0.cs" />
     <Compile Include="Assets\Scripts\SceneChange_BG1.cs" />
     <Compile Include="Assets\Scripts\SceneChange_BG2.cs" />
     <Compile Include="Assets\Scripts\SceneChange_BG3.cs" />
