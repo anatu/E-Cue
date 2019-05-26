@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/BG1,Classroom.unity
+- path: Assets/Scenes/Scene_Y.unity
   isLoaded: 1
   isActive: 1

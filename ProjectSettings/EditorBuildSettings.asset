@@ -6,14 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BG5,Park.unity
-    guid: 255b198e62730447f909aac36a2d6ad1
-  - enabled: 1
-    path: Assets/Scenes/Scene_Y.unity
-    guid: c38fbec1cf9d84194b9180fed7c53484
-  - enabled: 1
-    path: Assets/Scenes/BG3,Room.unity
-    guid: 8a9968ce68e024e8a9c2820074df9822
+    path: Assets/Scenes/BG0,School.unity
+    guid: 5ed40581d19bdb74fb32f08a14c000d2
   - enabled: 1
     path: Assets/Scenes/BG1,Classroom.unity
     guid: 98cb59f27413943449a9c010e3b75f04
@@ -21,11 +15,20 @@ EditorBuildSettings:
     path: Assets/Scenes/BG2,House.unity
     guid: 4c6d5a7a8020f41b2b66cbbc9d88b7a1
   - enabled: 1
-    path: Assets/Scenes/Scene_N.unity
-    guid: 042e9c4f1c61c4f47b6a2ed8adff3017
+    path: Assets/Scenes/BG3,Room.unity
+    guid: 8a9968ce68e024e8a9c2820074df9822
   - enabled: 1
     path: Assets/Scenes/BG4,Classroom.unity
     guid: 83732008adbc2412abf2a25d18a09e02
+  - enabled: 1
+    path: Assets/Scenes/BG5,Park.unity
+    guid: 255b198e62730447f909aac36a2d6ad1
+  - enabled: 1
+    path: Assets/Scenes/Scene_Y.unity
+    guid: c38fbec1cf9d84194b9180fed7c53484
+  - enabled: 1
+    path: Assets/Scenes/Scene_N.unity
+    guid: 042e9c4f1c61c4f47b6a2ed8adff3017
   - enabled: 1
     path: Assets/Scenes/Scene_NN.unity
     guid: 74ea34038ef7a4fccba14dd024775256
