@@ -731,7 +731,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 173840266}
-  - component: {fileID: 173840265}
   - component: {fileID: 173840267}
   m_Layer: 0
   m_Name: SceneChangeObject_N
@@ -740,18 +739,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &173840265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173840264}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe320fa6950054e418f9d48840efa31f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &173840266
 Transform:
   m_ObjectHideFlags: 0

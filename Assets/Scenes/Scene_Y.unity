@@ -4745,7 +4745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1263938221}
-  - component: {fileID: 1263938220}
+  - component: {fileID: 1263938222}
   m_Layer: 0
   m_Name: SceneChangeObject_Y
   m_TagString: Untagged
@@ -4753,18 +4753,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1263938220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263938219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0a84892d90604febb53a781ae5cb50e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1263938221
 Transform:
   m_ObjectHideFlags: 0
@@ -4779,6 +4767,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1263938222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263938219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26875cc63fa4f124d8b26cb622daf02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1278531425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7364,9 +7364,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 40
   orthographic: 0
   orthographic size: 10
   m_Depth: 0
@@ -7391,8 +7391,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132272224}
-  m_LocalRotation: {x: 0.09300329, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41, y: 1.94, z: 447.58}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.9, y: 1.63, z: 447.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
